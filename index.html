@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <section class="formFrame">
+        <header>
+          <div class="Line borderItem"></div>
+          <h1 class="Line">Register</h1>
+          <div class="Line borderItem"></div>
+          <h2>Create your account. It's free and only takes a minute.</h2>
+        </header>
+
+        <div class="formBlock">
+
+          <form action=""  >
+
+           <fieldset class="FS">
+            <input class="fieldDesign" type="text" placeholder="First Name" name="name" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$" minlength="3" required>
+            <input class="fieldDesign" type="text" placeholder="Last Name" name="lastName" pattern="^([A-Za-z]+[,.]?[ ]?|[A-Za-z]+['-]?)+$" minlength="3" required>
+           </fieldset>
+
+           <fieldset class="FS">
+             <input class="fieldDesign fieldDesign2" type="email" name="email" placeholder="Email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
+           </fieldset>
+
+           <fieldset class="FS">
+            <input class="fieldDesign fieldDesign2" type="password" name="password" placeholder="Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$" required>
+          </fieldset>
+
+          <fieldset class="FS">
+            <input class="fieldDesign fieldDesign2" type="password" name="password" placeholder="Confirm Password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required>
+          </fieldset>
+
+          <fieldset class="FS">
+            <label class="labelStyle">
+              <input   type="checkbox" name="acceptConfirm" required>
+              I accept the <a class="linksType1" href="">Terms of Use</a> & <a class="linksType1" href="">Privacy Policy.</a> 
+            </label>
+          </fieldset>
+
+          <fieldset class="FS">
+              <button class="buttonOnForm"> Register Now</button>
+          </fieldset>
+
+          </form>
+
+        </div>
+      </section>
+        
+
+    </main>
+  </body>
+</html>
