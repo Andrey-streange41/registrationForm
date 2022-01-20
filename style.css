@@ -98,9 +98,18 @@ header>div:first-child
     color: whitesmoke;
     font-size: x-large;
     background-color: rgb(19, 124, 24);
+   width: 100%;
+    padding: 20px 150px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+.div_Button
+{
     width: 80%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+   
+    text-align: center;
 }
 
 .linksType1

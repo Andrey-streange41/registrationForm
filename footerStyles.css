@@ -1,0 +1,49 @@
+footer
+{
+    background-color: rgb(99, 57, 177);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    height: 11vh;
+}
+
+.firstFlex_block
+{
+    display: flex;
+    align-items: center;
+    flex-basis: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.firstFlex_block>h3,.firstFlex_block>p
+{
+    padding-right: 25px;
+}
+.firstFlex_block>h3
+{
+    font-size: xx-large;
+}
+
+.firstFlex_block>h3::before
+{
+    content: url("images/earth-remove.png");
+    padding-right: 15px;
+}
+
+.secondFlex_block
+{
+    display: flex;
+    align-items: center;
+    flex-basis: 700px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: bold;
+
+}
+
+.secondFlex_block>p
+{
+    padding-right: 25px;
+}

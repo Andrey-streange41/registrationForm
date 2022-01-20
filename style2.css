@@ -1,0 +1,104 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+h1  
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    padding-left: 3%;
+    min-width: 550px;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+    border-bottom: 4px black solid;
+
+    flex-wrap: wrap;
+    max-height: 600px;
+    padding-left: 5%;
+    
+    
+
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.flex-item_lvl1
+{
+    color: whitesmoke;
+    font-size: 3em;
+    min-width: 350px;
+    max-width: 600px;
+}
+
+.flex-container_lvl2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    min-width: 880px;
+    max-width: 1000px;
+    font-size:2em;
+    
+}
+
+.flex-item_lvl2
+{
+    padding: 0px 2% 0px 2%;
+    font-weight: bolder;
+    
+}
+
+.customButton
+{
+    font-size: 0.6em;
+    font-weight: bolder;
+    border: solid whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 260px;
+    margin-left:5%;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.mainContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.centerMap
+{
+    flex-basis:20vw;
+    max-width: 39vw;
+}
+
+
+.flexContainer-list-text-table
+{
+    display: flex;
+    margin:0px;
+    align-items: flex-start;
+}
+
+
+.contentDiv-flex
+{
+    display: flex;
+    width: 100vw;
+    height: 71vh;
+}

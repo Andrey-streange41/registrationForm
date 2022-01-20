@@ -1,0 +1,101 @@
+.ul_1
+{
+    color: whitesmoke;
+    background-color: rgb(70, 69, 69);
+    border: rgb(100, 97, 97)  solid 4px;
+    min-width: 45%;
+    min-height: 660px;
+    margin: 0px;
+    padding: 2% 3%;
+    list-style: none;
+}
+
+.li_1
+{
+    list-style-position: inside;
+    padding-bottom: 2%;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ul_1>.li_1:last-child
+{
+    padding-bottom: 20%;
+}
+
+.ul_1>.li_1:nth-child(4)
+{
+    border-bottom: solid rgb(100, 97, 97) 4px;
+    padding-bottom: 30px;
+}
+.ul_1>.li_1:nth-child(5)
+{
+    padding-top: 30px;
+}
+
+
+.ul_1>.li_1:nth-child(1)::before
+{
+content: url("images/chart-gantt\(1\).png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(2)::before
+{
+content: url("images/backburger.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(3)::before
+{
+content: url("images/manjaro.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(4)::before
+{
+content: url("images/finance.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(5)::before
+{
+content: url("images/checkbox-marked-circle-plus-outline.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(6)::before
+{
+content: url("images/video-input-component.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(7)::before
+{
+content: url("images/alert-decagram.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(8)::before
+{
+content: url("images/page-next-outline.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(9)::before
+{
+content: url("images/archive-plus-outline.png");
+padding-right: 10px ;
+}
+
+.ul_1>.li_1:nth-child(10)::before
+{
+    content: url("images/cog.png");
+    padding-right: 10px ;
+}
+
+.leftListSection
+{
+    min-width: 20%;
+    align-items: stretch;
+}
